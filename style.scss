@@ -1,6 +1,15 @@
 $contrast_background_color:#000000;
 $contrast_text_color:#ffffff;
 
+.main{
+    min-height: 100vh;
+    position: relative;
+}
+
+.post__featured-image{
+    margin: 1em 0px;
+}
+
 .posts__meta{
     .meta{
         margin-top: 1rem !important;
@@ -14,6 +23,7 @@ $contrast_text_color:#ffffff;
     color: #ffffff;
     vertical-align: middle;
     position: absolute;
+    bottom: 0px;
     p{
         text-align: center;
         margin: auto;

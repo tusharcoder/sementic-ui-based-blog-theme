@@ -1,3 +1,10 @@
+.main {
+  min-height: 100vh;
+  position: relative; }
+
+.post__featured-image {
+  margin: 1em 0px; }
+
 .posts__meta .meta {
   margin-top: 1rem !important; }
 
@@ -7,7 +14,8 @@
   background-color: #000000;
   color: #ffffff;
   vertical-align: middle;
-  position: absolute; }
+  position: absolute;
+  bottom: 0px; }
   .footer p {
     text-align: center;
     margin: auto;
