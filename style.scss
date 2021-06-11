@@ -1,5 +1,22 @@
+$contrast_background_color:#000000;
+$contrast_text_color:#ffffff;
+
 .posts__meta{
     .meta{
         margin-top: 1rem !important;
+    }
+}
+
+.footer{
+    min-height: 4rem;
+    width: 100%;
+    background-color: $contrast_background_color;
+    color: #ffffff;
+    vertical-align: middle;
+    position: absolute;
+    p{
+        text-align: center;
+        margin: auto;
+        line-height: 4rem;
     }
 }
