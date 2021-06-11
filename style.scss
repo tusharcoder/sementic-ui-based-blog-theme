@@ -4,6 +4,8 @@ $contrast_text_color:#ffffff;
 .main{
     min-height: 100vh;
     position: relative;
+    padding-bottom: 5rem; /* this is given just to prevent the
+     footer to hide the content, now the footer sits in the padding area of the container*/
 }
 
 .post__featured-image{
@@ -17,7 +19,7 @@ $contrast_text_color:#ffffff;
 }
 
 .footer{
-    min-height: 4rem;
+    height: 4rem; /* height has to be fixed so that the footer cannot hide the content*/
     width: 100%;
     background-color: $contrast_background_color;
     color: #ffffff;
