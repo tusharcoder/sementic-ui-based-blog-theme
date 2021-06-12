@@ -5,6 +5,15 @@
                      /* this is given just to prevent the
 footer to hide the content, now the footer sits in the padding area of the container*/ }
 
+.mobile-menu {
+  display: none !important; }
+
+@media (max-width: 762px) {
+  .desktop-menu {
+    display: none !important; }
+
+  .mobile-menu {
+    display: flex !important; } }
 .post__featured-image {
   margin: 1em 0px; }
 
