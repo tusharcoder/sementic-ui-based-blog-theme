@@ -19,6 +19,9 @@ footer to hide the content, now the footer sits in the padding area of the conta
 .comment_form #comment_form__comment {
   resize: none; }
 
+.contact_us_form #contact_us_form__message {
+  resize: none; }
+
 .footer {
   height: 4rem;
   /* height has to be fixed so that the footer cannot hide the content*/

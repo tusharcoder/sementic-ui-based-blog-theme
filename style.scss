@@ -33,6 +33,12 @@ $contrast_text_color:#ffffff;
     }
 }
 
+.contact_us_form{
+    #contact_us_form__message{
+        resize: none;
+    }
+}
+
 .footer{
     height: 4rem; /* height has to be fixed so that the footer cannot hide the content*/
     width: 100%;
