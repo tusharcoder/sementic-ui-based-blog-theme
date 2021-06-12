@@ -11,6 +11,11 @@ footer to hide the content, now the footer sits in the padding area of the conta
 .posts__meta .meta {
   margin-top: 1rem !important; }
 
+.comments .comment div {
+  padding: 0.2rem 0px; }
+.comments .comment .comment__user_name h3 {
+  display: inline-block; }
+
 .comment_form #comment_form__comment {
   resize: none; }
 

@@ -18,6 +18,15 @@ $contrast_text_color:#ffffff;
     }
 }
 
+.comments{
+    .comment div{
+        padding:0.2rem 0px;
+    }
+    .comment .comment__user_name h3{
+        display: inline-block;
+    }
+}
+
 .comment_form{
     #comment_form__comment{
         resize: none;
