@@ -8,6 +8,7 @@
     <title>My First Post | My Website Theme </title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
 </head>
 
@@ -16,7 +17,7 @@
         
     <div class="ui container">
         <!--TOP NAV-->
-        <div class="ui stackable container menu">
+        <div class="ui stackable container menu desktop-menu">
             <a class="item">
                 <h1 class="ui header">Brand</h1>
             </a>
@@ -24,10 +25,33 @@
                 Home
             </a>
             <a class="item">
-                All Posts
+                All Tutorials
             </a>
-            <a class="item">
-                Categoties
+            <a class="ui dropdown item">
+                <!--.ui.dropdown will trigger the dropdown open-->
+                Tutorial Categoties
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                    <div class="item">HTML</div>
+                    <div class="item">JAVASCRIPT</div>
+                    <div class="dropdown item">
+                        CSS
+                        <i class="dropdown icon"></i>
+                        <div class="menu">
+                            <div class="item">1</div>
+                            <div class="item">2</div>
+                            <div class="dropdown item">
+                                3
+                                <i class="dropdown icon"></i>
+                                <div class="menu">
+                                    <div class="item">1</div>
+                                    <div class="item">2</div>
+                                    <div class="item">3</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </a>
             <div class="right menu">
                 <div class="item">
@@ -39,6 +63,72 @@
             </div>
         </div>
         <!--END TOP NAV-->
+        <!--MOBILE ACCORDIAN NAV-->
+        <div class="ui vertical accordion container menu mobile-menu">
+            <div class="item">
+                <h1 class="ui header">Brand</h1>
+            </div>
+            <div class="item">
+                <a class="title">Home</a>
+            </div>
+            <div class="item">
+                All Tutorials
+            </div>
+            <div class="item">
+                <a class="title">
+                    Tutorial Categories
+                    <i class="dropdown icon"></i>
+                </a>
+                <div class="content">
+                    <div class="menu">
+                        <div class="item">HTML</div>
+                        <div class="item">
+                            <a class="title">
+                                CSS
+                                <i class="dropdown icon"></i>
+                            </a>
+                            <div class="content">
+                                <div class="menu">
+                                    <div class="item">1</div>
+                                    <div class="item">2</div>
+                                    <div class="item">3</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a class="title">
+
+                            JAVASCRIPT
+                            <i class="dropdown icon"></i>
+                            </a>
+                            <div class="content">
+                                <div class="menu">
+                                    <div class="item">1</div>
+                                    <div class="item">2</div>
+                                    <div class="item">
+                                        <a class="title">
+
+                                        3
+                                        <i class="dropdown icon"></i>
+                                        </a>
+                                        <div class="content">
+                                            <div class="menu">
+                                                <div class="item">1</div>
+                                                <div class="item">2</div>
+                                                <div class="item">3</div>
+                                                <div class="item">4</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--MOBILE ACCORDIAN NAV-->
         <!--POSTS and Sidebar container-->
         <div class="ui celled grid">
             <div class="row">
@@ -216,6 +306,12 @@
     </div>
     <!--Footer-->
     </div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".ui.dropdown").dropdown();
+        $(".ui.accordion").accordion();
+    })
+</script>
 </body>
 
 </html>
