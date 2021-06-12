@@ -18,6 +18,12 @@ $contrast_text_color:#ffffff;
     }
 }
 
+.comment_form{
+    #comment_form__comment{
+        resize: none;
+    }
+}
+
 .footer{
     height: 4rem; /* height has to be fixed so that the footer cannot hide the content*/
     width: 100%;
