@@ -13,61 +13,10 @@
 </head>
 
 <body>
-    <div class="ui fluid container main">
-        
-    <div class="ui container">
-        <!--TOP NAV-->
-        <div class="ui stackable container menu desktop-menu">
-            <a class="item">
-                <h1 class="ui header">Brand</h1>
-            </a>
-            <a class="active item">
-                Home
-            </a>
-            <a class="item">
-                All Tutorials
-            </a>
-            <a class="ui dropdown item">
-                <!--.ui.dropdown will trigger the dropdown open-->
-                Tutorial Categoties
-                <i class="dropdown icon"></i>
-                <div class="menu">
-                    <div class="item">HTML</div>
-                    <div class="item">JAVASCRIPT</div>
-                    <div class="dropdown item">
-                        CSS
-                        <i class="dropdown icon"></i>
-                        <div class="menu">
-                            <div class="item">1</div>
-                            <div class="item">2</div>
-                            <div class="dropdown item">
-                                3
-                                <i class="dropdown icon"></i>
-                                <div class="menu">
-                                    <div class="item">1</div>
-                                    <div class="item">2</div>
-                                    <div class="item">3</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            <div class="right menu">
-                <div class="item">
-                    <div class="ui transparent icon input">
-                        <input type="text" placeholder="Search...">
-                        <i class="search link icon"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--END TOP NAV-->
-        <!--MOBILE ACCORDIAN NAV-->
-        <div class="ui vertical accordion container menu mobile-menu">
-            <div class="item">
-                <h1 class="ui header">Brand</h1>
-            </div>
+    <!--SIDEBAR CONTENT-->
+    <div class="ui left sidebar vertical accordion inverted menu">
+
+                <!--MOBILE ACCORDIAN NAV-->
             <div class="item">
                 <a class="title">Home</a>
             </div>
@@ -126,9 +75,82 @@
                         </div>
                     </div>
                 </div>
+                <!--MOBILE ACCORDIAN NAV-->
+        </div>
+    </div>
+    <!--SIDEBAR CONTENT-->
+    <!--MOBILE VIEW MAIN NAV-->
+    <div class="ui top fixed menu mobile-menu">
+        <div class="item">
+            <a class="launch item">
+                <i class="sidebar icon"></i>
+            </a>
+        </div>
+        <div class="item">
+            Brand
+        </div>
+        <div class="right menu">
+            <div class="item">
+                <div class="ui transparent icon input">
+                    <input type="text" placeholder="Search...">
+                    <i class="search link icon"></i>
+                </div>
             </div>
         </div>
-        <!--MOBILE ACCORDIAN NAV-->
+    </div>
+    <!--MOBILE VIEW MAIN NAV-->
+
+    <div class="pusher">
+    <div class="ui fluid container main">
+        
+    <div class="ui container">
+        <!--TOP NAV-->
+        <div class="ui stackable container menu desktop-menu">
+            <a class="item">
+                <h1 class="ui header">Brand</h1>
+            </a>
+            <a class="active item">
+                Home
+            </a>
+            <a class="item">
+                All Tutorials
+            </a>
+            <a class="ui dropdown item">
+                <!--.ui.dropdown will trigger the dropdown open-->
+                Tutorial Categoties
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                    <div class="item">HTML</div>
+                    <div class="item">JAVASCRIPT</div>
+                    <div class="dropdown item">
+                        CSS
+                        <i class="dropdown icon"></i>
+                        <div class="menu">
+                            <div class="item">1</div>
+                            <div class="item">2</div>
+                            <div class="dropdown item">
+                                3
+                                <i class="dropdown icon"></i>
+                                <div class="menu">
+                                    <div class="item">1</div>
+                                    <div class="item">2</div>
+                                    <div class="item">3</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <div class="right menu">
+                <div class="item">
+                    <div class="ui transparent icon input">
+                        <input type="text" placeholder="Search...">
+                        <i class="search link icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END TOP NAV-->
         <!--POSTS and Sidebar container-->
         <div class="ui celled grid">
             <div class="row">
@@ -300,18 +322,22 @@
         </div>
     </div>
     <!--COMMENT SECTION-->
+    </div>
     <!--Footer-->
     <div class="footer">
                 <p>&copy; copyright 2021 TusharBlog | All rights reserved</p>
     </div>
     <!--Footer-->
     </div>
-<script type="text/javascript">
-    $(document).ready(function(){
-        $(".ui.dropdown").dropdown();
-        $(".ui.accordion").accordion();
-    })
-</script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".ui.dropdown").dropdown();
+            $(".ui.accordion").accordion();
+            $(".ui.sidebar").sidebar('attach events', '.launch');
+        })
+
+
+    </script>
 </body>
 
 </html>
