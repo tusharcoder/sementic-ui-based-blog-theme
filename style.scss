@@ -17,6 +17,21 @@ $contrast_text_color:#ffffff;
     .mobile-menu{
         display: flex !important;
     }
+    .pusher{
+        padding-top: 5rem;
+    }
+    .main{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+.sidebar{
+    .item{
+         color: $contrast_text_color!important;
+    }
+    .title{
+         color: $contrast_text_color!important;
+    }
+}
 }
 .post__featured-image{
     margin: 1em 0px;

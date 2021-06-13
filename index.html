@@ -6,67 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website Theme | Tushar</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
 </head>
 
 <body>
-    <div class="ui fluid container main">
-    <div class="ui container">
-        <!--TOP NAV-->
-        <div class="ui stackable container menu desktop-menu">
-            <a class="item">
-                <h1 class="ui header">Brand</h1>
-            </a>
-            <a class="active item">
-                Home
-            </a>
-            <a class="item">
-                All Tutorials
-            </a>
-            <a class="ui dropdown item">
-                <!--.ui.dropdown will trigger the dropdown open-->
-                Tutorial Categoties
-                <i class="dropdown icon"></i>
-                <div class="menu">
-                    <div class="item">HTML</div>
-                    <div class="item">JAVASCRIPT</div>
-                    <div class="dropdown item">
-                        CSS
-                        <i class="dropdown icon"></i>
-                        <div class="menu">
-                            <div class="item">1</div>
-                            <div class="item">2</div>
-                            <div class="dropdown item">
-                                3
-                                <i class="dropdown icon"></i>
-                                <div class="menu">
-                                    <div class="item">1</div>
-                                    <div class="item">2</div>
-                                    <div class="item">3</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            <div class="right menu">
-                <div class="item">
-                    <div class="ui transparent icon input">
-                        <input type="text" placeholder="Search...">
-                        <i class="search link icon"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--END TOP NAV-->
-        <!--MOBILE ACCORDIAN NAV-->
-        <div class="ui vertical accordion container menu mobile-menu">
-            <div class="item">
-                <h1 class="ui header">Brand</h1>
-            </div>
+    <!--SIDEBAR CONTENT-->
+    <div class="ui left sidebar vertical accordion inverted menu">
+
+                <!--MOBILE ACCORDIAN NAV-->
             <div class="item">
                 <a class="title">Home</a>
             </div>
@@ -125,191 +75,289 @@
                         </div>
                     </div>
                 </div>
-            </div>
+                <!--MOBILE ACCORDIAN NAV-->
         </div>
-        <!--MOBILE ACCORDIAN NAV-->
-        <!--POSTS and Sidebar container-->
-        <div class="ui celled grid">
-            <div class="row">
-                <div class="sixteen wide mobile twelve wide tablet twelve wide computer column">
-                    <div class="ui segment">
-
-                        <!--POST-->
-                        <div class="text container">
-                            <h1 class="ui header">
-                                First post
-                            </h1>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime in expedita
-                            minus, dolor incidunt ipsum dolorem, alias, perferendis reiciendis corporis. Sit ad laborum,
-                            obcaecati commodi consequuntur dignissimos nulla magni.
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime in expedita
-                            minus, dolor incidunt ipsum dolorem, alias, perferendis reiciendis corporis. Sit ad laborum,
-                            obcaecati commodi consequuntur dignissimos nulla magni.
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime in expedita
-                            minus, dolor incidunt ipsum dolorem, alias, perferendis reiciendis corporis. Sit ad laborum,
-                            obcaecati commodi consequuntur dignissimos nulla magni.
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime in expedita
-                            minus, dolor incidunt ipsum dolorem, alias, perferendis reiciendis corporis. Sit ad laborum,
-                            obcaecati commodi consequuntur dignissimos nulla magni.
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime in expedita
-                            minus, dolor incidunt ipsum dolorem, alias, perferendis reiciendis corporis. Sit ad laborum,
-                            obcaecati commodi consequuntur dignissimos nulla magni.
-                            <!--POST META-->
-                            <div class="ui segment">
-
-                                <div class="ui stackable grid container">
-                                    <div class="four wide column">
-
-                                        <div class="ui label meta">
-                                            Posted by
-                                            <div class="detail"> <a href="#">Tushar</a></div>
-                                        </div>
-                                    </div>
-                                    <div class="eight wide column">
-
-                                        <div class="ui label meta">
-                                            On
-                                            <div class="detail">Tuesday, 24 April, 2021</div>
-                                        </div>
-
-                                    </div>
-                                    <div class="four wide column">
-
-                                        <div class="ui label meta">
-                                            Category
-                                            <div class="detail"> <a href="#">Python</a></div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <!--POST META-->
-                            <div class="ui container">
-                                <div class="sixteen width column">
-
-                                <a href="#">#development</a>
-                                               <a href="#">#backend</a>
-                                               <a href="#">#python</a>
-                                </div>
-                                <div class="sixteen wide column">
-                                    <i class="comment icon"></i> 2 Comments
-                                </div>
-                            </div>
-                        </div>
-                        <div class="ui divider"></div>
-                        <!--POST-->
-                        <!--POST-->
-                        <div class="text container">
-                            <h1 class="ui header">
-                                Second post
-                            </h1>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime in expedita
-                            minus, dolor incidunt ipsum dolorem, alias, perferendis reiciendis corporis. Sit ad laborum,
-                            obcaecati commodi consequuntur dignissimos nulla magni.
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime in expedita
-                            minus, dolor incidunt ipsum dolorem, alias, perferendis reiciendis corporis. Sit ad laborum,
-                            obcaecati commodi consequuntur dignissimos nulla magni.
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime in expedita
-                            minus, dolor incidunt ipsum dolorem, alias, perferendis reiciendis corporis. Sit ad laborum,
-                            obcaecati commodi consequuntur dignissimos nulla magni.
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime in expedita
-                            minus, dolor incidunt ipsum dolorem, alias, perferendis reiciendis corporis. Sit ad laborum,
-                            obcaecati commodi consequuntur dignissimos nulla magni.
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime in expedita
-                            minus, dolor incidunt ipsum dolorem, alias, perferendis reiciendis corporis. Sit ad laborum,
-                            obcaecati commodi consequuntur dignissimos nulla magni.
-                            <!--POST META-->
-                            <div class="ui segment">
-                                <div class="detail"> <a href="#">Python</a></div>
-
-                                <div class="ui stackable grid container">
-                                    <div class="four wide column">
-
-                                        <div class="ui label meta">
-                                            Posted by
-                                            <div class="detail"> <a href="#">Tushar</a></div>
-                                        </div>
-                                    </div>
-                                    <div class="eight wide column">
-
-                                        <div class="ui label meta">
-                                            On
-                                            <div class="detail">Tuesday, 24 April, 2021</div>
-                                        </div>
-
-                                    </div>
-                                    <div class="four wide column">
-
-                                        <div class="ui label meta">
-                                            Category
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <!--POST META-->
-                            <div class="ui container">
-                                <div class="sixteen width column">
-
-                                <a href="#">#development</a>
-                                               <a href="#">#backend</a>
-                                               <a href="#">#python</a>
-                                </div>
-                                <div class="sixteen wide column">
-                                    <i class="comment icon"></i> 2 Comments
-                                </div>
-                            </div>
-                        </div>
-                        <div class="ui divider"></div>
-                        <!--POST-->
-                    </div>
-
-                </div>
-                <div class="sixteen wide mobile four wide tablet four wide computer column">
-                    <div class="ui segment">
-                        <div class="ui fluid container">
-                            <h1 class="ui header">Recent Posts</h1>
-                        </div>
-                        <div class="ui divider"></div>
-                        <div class="ui fluid container">
-                            <h3 class="ui header"><a>First Post</a></h3>
-                        </div>
-                        <div class="ui divider"></div>
-
-                        <div class="ui fluid container">
-                            <h3 class="ui header"><a>Second Post</a></h3>
-                        </div>
-                        <div class="ui divider"></div>
-
-                        <div class="ui fluid container">
-                            <h3 class="ui header"> <a>Third Post</a></h3>
-                        </div>
-                        <div class="ui divider"></div>
-
-                        <div class="ui fluid container">
-                            <h3 class="ui header"><a>Fourth Post</a></h3>
-                        </div>
-                        <div class="ui divider"></div>
-
-
-                    </div>
+    </div>
+    <!--SIDEBAR CONTENT-->
+    <!--MOBILE VIEW MAIN NAV-->
+    <div class="ui top fixed menu mobile-menu">
+        <div class="item">
+            <a class="launch item">
+                <i class="sidebar icon"></i>
+            </a>
+        </div>
+        <div class="item">
+            Brand
+        </div>
+        <div class="right menu">
+            <div class="item">
+                <div class="ui transparent icon input">
+                    <input type="text" placeholder="Search...">
+                    <i class="search link icon"></i>
                 </div>
             </div>
         </div>
-        <!--POSTS and SIDEBAR CONTAINER-->
     </div>
-    <!--Footer-->
-    <div class="footer">
-                <p>&copy; copyright 2021 TusharBlog | All rights reserved</p>
+    <!--MOBILE VIEW MAIN NAV-->
+
+    <div class="pusher">
+        <div class="ui fluid container main">
+            <div class="ui container">
+                <!--TOP NAV-->
+                <div class="ui stackable container menu desktop-menu">
+                    <a class="item">
+                        <h1 class="ui header">Brand</h1>
+                    </a>
+                    <a class="active item">
+                        Home
+                    </a>
+                    <a class="item">
+                        All Tutorials
+                    </a>
+                    <a class="ui dropdown item">
+                        <!--.ui.dropdown will trigger the dropdown open-->
+                        Tutorial Categoties
+                        <i class="dropdown icon"></i>
+                        <div class="menu">
+                            <div class="item">HTML</div>
+                            <div class="item">JAVASCRIPT</div>
+                            <div class="dropdown item">
+                                CSS
+                                <i class="dropdown icon"></i>
+                                <div class="menu">
+                                    <div class="item">1</div>
+                                    <div class="item">2</div>
+                                    <div class="dropdown item">
+                                        3
+                                        <i class="dropdown icon"></i>
+                                        <div class="menu">
+                                            <div class="item">1</div>
+                                            <div class="item">2</div>
+                                            <div class="item">3</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="right menu">
+                        <div class="item">
+                            <div class="ui transparent icon input">
+                                <input type="text" placeholder="Search...">
+                                <i class="search link icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--END TOP NAV-->
+                <!--POSTS and Sidebar container-->
+                <div class="ui celled grid">
+                    <div class="row">
+                        <div class="sixteen wide mobile twelve wide tablet twelve wide computer column">
+                            <div class="ui segment">
+
+                                <!--POST-->
+                                <div class="text container">
+                                    <h1 class="ui header">
+                                        First post
+                                    </h1>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime in
+                                    expedita
+                                    minus, dolor incidunt ipsum dolorem, alias, perferendis reiciendis corporis. Sit ad
+                                    laborum,
+                                    obcaecati commodi consequuntur dignissimos nulla magni.
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime in
+                                    expedita
+                                    minus, dolor incidunt ipsum dolorem, alias, perferendis reiciendis corporis. Sit ad
+                                    laborum,
+                                    obcaecati commodi consequuntur dignissimos nulla magni.
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime in
+                                    expedita
+                                    minus, dolor incidunt ipsum dolorem, alias, perferendis reiciendis corporis. Sit ad
+                                    laborum,
+                                    obcaecati commodi consequuntur dignissimos nulla magni.
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime in
+                                    expedita
+                                    minus, dolor incidunt ipsum dolorem, alias, perferendis reiciendis corporis. Sit ad
+                                    laborum,
+                                    obcaecati commodi consequuntur dignissimos nulla magni.
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime in
+                                    expedita
+                                    minus, dolor incidunt ipsum dolorem, alias, perferendis reiciendis corporis. Sit ad
+                                    laborum,
+                                    obcaecati commodi consequuntur dignissimos nulla magni.
+                                    <!--POST META-->
+                                    <div class="ui segment">
+
+                                        <div class="ui stackable grid container">
+                                            <div class="four wide column">
+
+                                                <div class="ui label meta">
+                                                    Posted by
+                                                    <div class="detail"> <a href="#">Tushar</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="eight wide column">
+
+                                                <div class="ui label meta">
+                                                    On
+                                                    <div class="detail">Tuesday, 24 April, 2021</div>
+                                                </div>
+
+                                            </div>
+                                            <div class="four wide column">
+
+                                                <div class="ui label meta">
+                                                    Category
+                                                    <div class="detail"> <a href="#">Python</a></div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--POST META-->
+                                    <div class="ui container">
+                                        <div class="sixteen width column">
+
+                                            <a href="#">#development</a>
+                                            <a href="#">#backend</a>
+                                            <a href="#">#python</a>
+                                        </div>
+                                        <div class="sixteen wide column">
+                                            <i class="comment icon"></i> 2 Comments
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ui divider"></div>
+                                <!--POST-->
+                                <!--POST-->
+                                <div class="text container">
+                                    <h1 class="ui header">
+                                        Second post
+                                    </h1>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime in
+                                    expedita
+                                    minus, dolor incidunt ipsum dolorem, alias, perferendis reiciendis corporis. Sit ad
+                                    laborum,
+                                    obcaecati commodi consequuntur dignissimos nulla magni.
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime in
+                                    expedita
+                                    minus, dolor incidunt ipsum dolorem, alias, perferendis reiciendis corporis. Sit ad
+                                    laborum,
+                                    obcaecati commodi consequuntur dignissimos nulla magni.
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime in
+                                    expedita
+                                    minus, dolor incidunt ipsum dolorem, alias, perferendis reiciendis corporis. Sit ad
+                                    laborum,
+                                    obcaecati commodi consequuntur dignissimos nulla magni.
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime in
+                                    expedita
+                                    minus, dolor incidunt ipsum dolorem, alias, perferendis reiciendis corporis. Sit ad
+                                    laborum,
+                                    obcaecati commodi consequuntur dignissimos nulla magni.
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis maxime in
+                                    expedita
+                                    minus, dolor incidunt ipsum dolorem, alias, perferendis reiciendis corporis. Sit ad
+                                    laborum,
+                                    obcaecati commodi consequuntur dignissimos nulla magni.
+                                    <!--POST META-->
+                                    <div class="ui segment">
+                                        <div class="detail"> <a href="#">Python</a></div>
+
+                                        <div class="ui stackable grid container">
+                                            <div class="four wide column">
+
+                                                <div class="ui label meta">
+                                                    Posted by
+                                                    <div class="detail"> <a href="#">Tushar</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="eight wide column">
+
+                                                <div class="ui label meta">
+                                                    On
+                                                    <div class="detail">Tuesday, 24 April, 2021</div>
+                                                </div>
+
+                                            </div>
+                                            <div class="four wide column">
+
+                                                <div class="ui label meta">
+                                                    Category
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--POST META-->
+                                    <div class="ui container">
+                                        <div class="sixteen width column">
+
+                                            <a href="#">#development</a>
+                                            <a href="#">#backend</a>
+                                            <a href="#">#python</a>
+                                        </div>
+                                        <div class="sixteen wide column">
+                                            <i class="comment icon"></i> 2 Comments
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ui divider"></div>
+                                <!--POST-->
+                            </div>
+
+                        </div>
+                        <div class="sixteen wide mobile four wide tablet four wide computer column">
+                            <div class="ui segment">
+                                <div class="ui fluid container">
+                                    <h1 class="ui header">Recent Posts</h1>
+                                </div>
+                                <div class="ui divider"></div>
+                                <div class="ui fluid container">
+                                    <h3 class="ui header"><a>First Post</a></h3>
+                                </div>
+                                <div class="ui divider"></div>
+
+                                <div class="ui fluid container">
+                                    <h3 class="ui header"><a>Second Post</a></h3>
+                                </div>
+                                <div class="ui divider"></div>
+
+                                <div class="ui fluid container">
+                                    <h3 class="ui header"> <a>Third Post</a></h3>
+                                </div>
+                                <div class="ui divider"></div>
+
+                                <div class="ui fluid container">
+                                    <h3 class="ui header"><a>Fourth Post</a></h3>
+                                </div>
+                                <div class="ui divider"></div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--POSTS and SIDEBAR CONTAINER-->
+            </div>
+
+        </div>
+        <!--Footer-->
+        <div class="footer">
+            <p>&copy; copyright 2021 TusharBlog | All rights reserved</p>
+        </div>
+        <!--Footer-->
     </div>
-    <!--Footer-->
-</div>
-<script type="text/javascript">
-    $(document).ready(function(){
-        $(".ui.dropdown").dropdown();
-        $(".ui.accordion").accordion();
-    })
-</script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".ui.dropdown").dropdown();
+            $(".ui.accordion").accordion();
+            $(".ui.sidebar").sidebar('attach events', '.launch');
+        })
+
+
+    </script>
 </body>
 
 </html>
